@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+    <head>
+    <meta charset="utf-8">
+        <link rel="stylesheet" href="CSS/base.css">
+    <title>今までに読んで印象に残った小説家になろう作品6選</title>
+    </head>
+    <body>
+        
+        
+        
+        <h1>【完結済み】小説家になろう作品</h1>
+        
+        <p>　今回は今までに読んだ小説家になろう作品の中で個人的に好きな作品6つを完結済みと連載中に分けて紹介していこうと思います。その中でどの作品を読もうか悩んでいる方は下のおみくじを使ってみてください。</p>
+        
+       <form><input type="button" value="おみくじ
+        " onClick="omikuji()"></form>
+ <script type="text/javascript">
+function omikuji() {
+	rand = Math.floor(Math.random()*6);
+           if (rand == 0) msg = "転生したらスライムだった件";
+	       if (rand == 1) msg = "無職転生　-異世界行ったら本気出す-";
+	       if (rand == 2) msg = "魔王様の街づくり！最強のダンジョンは近代都市～";
+           if (rand == 3) msg = "ありふれた職業で世界最強";
+	       if (rand == 4) msg = "ティアムーン帝国物語　～断頭台から始まる、姫の転生逆転ストーリー～";
+           if (rand == 5) msg = "黒の召喚士　～戦闘狂の成り上がり～";
+	   alert(msg);
+        }
+        </script>
+      
+        
+        <div>
+        <h2>目次</h2>
+        <h3><a href="tennsura,musyoku.html">【完結済み】小説家になろう作品</a></h3>
+        <ol>
+        <li>転生したらスライムだった件</li>
+        <li>無職転生　‐異世界行ったら本気出す‐</li>
+        <li>魔王様の街づくり！最強のダンジョンは近代都市～</li>
+        </ol>
+        <h3><a href="arihure,tiamoon.html">【連載中】小説家になろう作品</a></h3>
+                <ol>
+                <li>ありふれた職業で世界最強</li>
+                <li>ティアムーン帝国物語　～断頭台から始まる、姫の転生逆転ストーリー～</li>
+                <li>黒の召喚士　～戦闘狂の成り上がり～</li>
+                </ol>
+        </div>
+        
+         <nav id=menubar>
+             <ul>
+                <li>
+                 <a href="tennsura,musyoku.html">（【完結済み】小説家になろう作品）</a></li>
+                <li>
+                 <a href="tiamoon,arihure.html">（【連載中】小説家になろう作品）</a> </li>
+             </ul></nav>
+      <img id="mypic" src="img.html/tennsura.jpg" width="250" height="300">
+        
+            <script>
+        var pics_src = new Array("img.html/tennsura.jpg","img.html/musyoku.jpg","img.html/maousama.jpg","img.html/arihure.jpg","img.html/tiamoon.jpg","img.html/kurono.jpg");
+            var num = -1;
+ 
+            slideshow_timer();
+ 
+            function slideshow_timer(){
+                if (num == 5){
+                    num = 0;
+                } 
+                else {
+                    num ++;
+                }
+                document.getElementById("mypic").src=pics_src[num];
+                setTimeout("slideshow_timer()",2000); 
+            }
+        </script>
+       
+       
+        <footer>
+            Copyright &copy; Tetsushiro　Nakamura. ALL Rights Reserved.
+        </footer>
+    
+        
+    </body>
+</html>
