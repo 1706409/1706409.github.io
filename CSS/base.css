@@ -1,0 +1,30 @@
+@charset "utf-2";
+
+body{
+    font-size:  16px;
+    font-family: "Hiragino Kaku Gothic ProN","ヒラギノ角ゴProN",Meiyo,"MS Pゴシック",sans-serif;
+    background-color:azure;
+}
+h1{
+    text-align: center;
+    
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: blue;}
+
+#menubar > ul{
+        list-style: none;
+        padding-left: 0px;
+}
+    
+#menubar > ul > li{
+    display: inline;
+    margin: 0 16px 0 0;
+    padding: 4px;
+    border: 1px solid #666666;
+    border-radius: 4px;
+    background: linear-gradient(#FFFFFF,#888888)
+}
